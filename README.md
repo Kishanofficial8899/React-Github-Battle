@@ -1,7 +1,7 @@
 
 # View Project Online
 
-[CICK TO VIEW](https://githubbattleapp.netlify.app/)
+[CICK TO VIEW](https://githubbattlereact.netlify.app/)
 
 ## Available Scripts
 
