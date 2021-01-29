@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { motion } from 'framer-motion';
 
 const LanguageNav = ({ selectedLanguage, onUpdateLanguage }) => {
-  const languages = ['All', 'JavaScript', 'Ruby', 'Java', 'CSS', 'Python'];
+  const languages = ['All', 'JavaScript', 'Java', 'CSS', 'Python'];
 
   //TO GET ACTIVE COLOR OF LANGUAAGE
   let getActiveColor = (language) => {

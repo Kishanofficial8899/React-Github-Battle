@@ -23,7 +23,6 @@ const App = () => {
     const savedMode = JSON.parse(localStorage.getItem('dark'));
     const userPreferdDark = getPreferdColorSchema();
 
-    console.log(userPreferdDark);
     if (isReturningUser) {
       return savedMode;
     } else if (userPreferdDark) {

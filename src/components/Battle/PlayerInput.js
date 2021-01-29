@@ -22,17 +22,7 @@ const inputContainer = {
   },
 };
 
-const buttonVarients = {
-  hover: {
-    scale: 1.1,
-    textShadow: '0px 0px 8px 0px rgb(255,25,255)',
-    boxShadow: '0px 0px 8px 0px rgb(255,25,255)',
-    transition: {
-      duration: 0.3,
-      yoyo: Infinity,
-    },
-  },
-};
+
 
 export default class PlayerInput extends Component {
   state = {
@@ -77,9 +67,8 @@ export default class PlayerInput extends Component {
                 value={username}
               />
               <motion.button
-                className={`btn ${
-                  darkMode === true ? 'light-btn' : 'dark-btn'
-                }`}
+                className={`btn ${darkMode === true ? 'light-btn' : 'dark-btn'
+                  }`}
                 type='submit'
                 disabled={!this.state.username}>
                 submit

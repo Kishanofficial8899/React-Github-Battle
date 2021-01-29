@@ -23,16 +23,15 @@ li {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 50px;
+  padding: 40px;
+
+
 }
 .dark {
   color: #dadada;
   background: #1c2022;
   min-height: 100vh !important;
 }
-/* @media (prefers-color-scheme: dark) {
- 
-} */
 
 .flex-center {
   display: flex;
@@ -60,6 +59,7 @@ li {
 
 .space-around {
   justify-content: space-around;
+  
 }
 
 .header-lg {
@@ -167,6 +167,32 @@ li {
   display: flex;
   flex-direction: row;
 }
+@media (max-width:320px){
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .container{
+  
+    margin: 0 auto;
+    border: 0;
+    padding: 0;
+    }
+  
+}
+@media (max-width:480px){
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .container{
+   
+    margin: 0 auto;
+    border: 0;
+    padding: 0;
+    }
+}
+
 
 .player {
   flex: 1;
